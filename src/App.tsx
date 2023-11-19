@@ -7,7 +7,7 @@ import "./App.css";
 
 const App = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/testrepo/">
             <Routes>
                 {/* ルートページ */}
                 <Route
