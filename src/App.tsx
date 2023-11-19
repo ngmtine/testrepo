@@ -17,19 +17,19 @@ const App = () => {
 
                 {/* プレーン実装例ページ */}
                 <Route
-                    path="plane"
+                    path="/plane"
                     element={<Plane />}
                 />
 
                 {/* プレーンreact実装ページ */}
                 <Route
-                    path="planereact"
+                    path="/planereact"
                     element={<ReactPlane />}
                 />
 
                 {/* react-virtuoso実装ページ */}
                 <Route
-                    path="virtuoso"
+                    path="/virtuoso"
                     element={<Virtuoso />}
                 />
             </Routes>
